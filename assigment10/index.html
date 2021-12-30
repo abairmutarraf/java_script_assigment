@@ -1,0 +1,731 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Js Assignment-10</title>
+</head>
+
+<body>
+    
+<!-- Js Prog. 1 -->
+<div class="js">
+
+    <h3> 1. Write a js program to find length of a string. </h3>
+
+
+    <button onclick="example01()" class="btn btn-primary text-white mt-3 mb-3"> Print Length of String</button>
+    <h2 id="resulthead1"></h2>
+    <p id="result1"></p>
+
+</div>
+
+<!-- Js Prog. 2 -->
+<div class="js">
+
+    <h3> 2. Write a js program to copy one string to another string. </h3>
+
+
+    <button onclick="example02()" class="btn btn-primary text-white mt-3 mb-3"> Print Copied String</button>
+    <h2 id="resulthead2"></h2>
+    <p id="result2"></p>
+
+</div>
+<!-- Js Prog. 3 -->
+<div class="js">
+
+    <h3> 3. Write a js program to concatenate two strings. </h3>
+
+
+    <button onclick="example03()" class="btn btn-primary text-white mt-3 mb-3"> Print combined String</button>
+    <h2 id="resulthead3"></h2>
+    <p id="result3"></p>
+
+</div>
+<!-- Js Prog. 4 -->
+<div class="js">
+
+    <h3> 4. Write a js program to compare two strings. </h3>
+
+
+    <button onclick="example04()" class="btn btn-primary text-white mt-3 mb-3"> Print combined String</button>
+    <h2 id="resulthead4"></h2>
+    <p id="result4"></p>
+
+</div>
+
+<!-- Js Prog. 5 -->
+<div class="js">
+
+    <h3> 5. Write a js program to convert lowercase string to uppercase. </h3>
+
+
+    <button onclick="example05()" class="btn btn-primary text-white mt-3 mb-3"> Convert to UpperCase</button>
+    <h2 id="resulthead5"></h2>
+    <p id="result5"></p>
+
+</div>
+<!-- Js Prog. 6 -->
+<div class="js">
+
+    <h3> 6. Write a js program to convert uppercase string to lowercase. </h3>
+
+
+    <button onclick="example06()" class="btn btn-primary text-white mt-3 mb-3"> Convert to lowerCase</button>
+    <h2 id="resulthead6"></h2>
+    <p id="result6"></p>
+
+</div>
+
+<!-- Js Prog. 7 -->
+<div class="js">
+
+    <h3> 7. Write a js program to toggle case of each character of a string. </h3>
+
+
+    <button onclick="example07()" class="btn btn-primary text-white mt-3 mb-3"> Toggle Case</button>
+    <h2 id="resulthead7"></h2>
+    <p id="result7"></p>
+
+</div>
+
+<!-- Js Prog. 8 -->
+<div class="js">
+
+    <h3> 8. Write a js program to find total number of alphabets, digits or special character in a string. </h3>
+       <label for="text">Enter the Data</label>
+       <br/>
+      <textarea name="" id="text" cols="30" rows="5" >waqas.aleem1990@gmail.com </textarea>
+      <br/>
+    <button onclick="example08()" class="btn btn-primary text-white mt-3 mb-3"> Find alphabets/digits/special</button>
+    <h2 id="resulthead8"></h2>
+    <p id="result8"></p>
+
+</div>
+
+<!-- Js Prog. 9 -->
+<div class="js">
+
+    <h3> 9. Write a js program to count total number of vowels and consonants in a string. </h3>
+       <label for="text9">Enter the Data</label>
+       <br/>
+      <textarea name="" id="text9" cols="30" rows="5" ></textarea>
+      <br/>
+    <button onclick="example09()" class="btn btn-primary text-white mt-3 mb-3"> Find Vowels / Consonants</button>
+    <h2 id="resulthead9"></h2>
+    <p id="result9"></p>
+
+</div>
+<!-- Js Prog. 10 -->
+<div class="js">
+
+    <h3> 10. Write a js program to count total number of words in a string. </h3>
+       <label for="text10">Enter the Data</label>
+       <br/>
+      <textarea name="" id="text10" cols="30" rows="5" ></textarea>
+      <br/>
+    <button onclick="example10()" class="btn btn-primary text-white mt-3 mb-3">Total Number of Words</button>
+    <h2 id="resulthead10"></h2>
+    <p id="result10"></p>
+
+</div>
+
+<!-- Js Prog. 11 -->
+<div class="js">
+
+    <h3> 11. Write a js program to find reverse of a string. </h3>
+       <label for="text11">Enter the Data</label>
+       <br/>
+      <textarea name="" id="text11" cols="30" rows="5" ></textarea>
+      <br/>
+    <button onclick="example11()" class="btn btn-primary text-white mt-3 mb-3">Reverse the String</button>
+    <h2 id="resulthead11"></h2>
+    <p id="result11"></p>
+
+</div>
+
+<!-- Js Prog. 12 -->
+<div class="js">
+
+    <h3> 12. Write a js program to check whether a string is palindrome or not. </h3>
+       <label for="text12">Enter the Data</label>
+       <br/>
+      <textarea name="" id="text12" cols="30" rows="5" ></textarea>
+      <br/>
+    <button onclick="example12()" class="btn btn-primary text-white mt-3 mb-3">Palindrome String</button>
+    <h2 id="resulthead12"></h2>
+    <p id="result12"></p>
+
+</div>
+<!-- Js Prog. 13 -->
+<div class="js">
+
+    <h3> 13. Write a js program to reverse order of words in a given string. </h3>
+       <label for="text13">Enter the Data</label>
+       <br/>
+      <textarea name="" id="text13" cols="30" rows="5" ></textarea>
+      <br/>
+    <button onclick="example13()" class="btn btn-primary text-white mt-3 mb-3">Reverse Words</button>
+    <h2 id="resulthead13"></h2>
+    <p id="result13"></p>
+
+</div>
+
+<!-- Js Prog. 14 -->
+<div class="js">
+
+    <h3> 14. Write a js program to find first occurrence of a character in a given string. </h3>
+       <label for="text14">Enter the Data</label>
+       <br/>
+      <textarea name="" id="text14" cols="30" rows="5" ></textarea>
+      <br/>
+      <input type="text" id="firstChar" class="input-group w-50" placeholder="Enter the character to find first Occurence" maxlength="1">
+      <br/>
+    <button onclick="example14()" class="btn btn-primary text-white mt-3 mb-3">First Occurrence</button>
+    <h2 id="resulthead14"></h2>
+    <p id="result14"></p>
+
+</div> 
+
+<!-- Js Prog. 15 -->
+<div class="js">
+
+    <h3> 15. Write a js program to find last occurrence of a character in a given string. </h3>
+       <label for="text15">Enter the Data</label>
+       <br/>
+      <textarea name="" id="text15" cols="30" rows="5" ></textarea>
+      <br/>
+      <input type="text" id="lastChar" class="input-group w-50" placeholder="Enter the character to find first Occurence" maxlength="1">
+      <br/>
+    <button onclick="example15()" class="btn btn-primary text-white mt-3 mb-3">Last Occurrence</button>
+    <h2 id="resulthead15"></h2>
+    <p id="result15"></p>
+
+</div> 
+
+<!-- Js Prog. 16 -->
+<div class="js">
+
+    <h3> 16. Write a js program to search all occurrences of a character in given string. </h3>
+       <label for="text16">Enter the Data</label>
+       <br/>
+      <textarea name="" id="text16" cols="30" rows="5" ></textarea>
+      <br/>
+      <input type="text" id="findChar" class="input-group w-50" placeholder="Enter the character to find first Occurence" maxlength="1">
+      <br/>
+    <button onclick="example16()" class="btn btn-primary text-white mt-3 mb-3">Find All Occurrence</button>
+    <h2 id="resulthead16"></h2>
+    <p id="result16"></p>
+
+</div> 
+
+<!-- Js Prog. 17 -->
+<div class="js">
+
+    <h3> 17. Write a js program to count occurrences of a character in given string. </h3>
+       <label for="text17">Enter the Data</label>
+       <br/>
+      <textarea name="" id="text17" cols="30" rows="5" ></textarea>
+      <br/>
+      <input type="text" id="findChar2" class="input-group w-50" placeholder="Enter the character to find first Occurence" maxlength="1">
+      <br/>
+    <button onclick="example17()" class="btn btn-primary text-white mt-3 mb-3">Find All Occurrence</button>
+    <h2 id="resulthead17"></h2>
+    <p id="result17"></p>
+
+</div> 
+
+<!-- Js Prog. 18 -->
+<div class="js">
+
+    <h3> 18. Write a js program to find highest frequency character in a string. </h3>
+       <label for="text18">Enter the Data</label>
+       <br/>
+      <textarea name="" id="text18" cols="30" rows="5" ></textarea>
+      <br/>
+      
+    <button onclick="example18()" class="btn btn-primary text-white mt-3 mb-3">Find Highest Frequency</button>
+    <h2 id="resulthead18"></h2>
+    <p id="result18"></p>
+
+</div> 
+
+
+<!-- Js Prog. 19 -->
+<div class="js">
+
+    <h3> 19. Write a js program to find lowest frequency character in a string. </h3>
+       <label for="text19">Enter the Data</label>
+       <br/>
+      <textarea name="" id="text19" cols="30" rows="5" ></textarea>
+      <br/>
+      
+    <button onclick="example19()" class="btn btn-primary text-white mt-3 mb-3">Find Lowest Frequency</button>
+    <h2 id="resulthead19"></h2>
+    <p id="result19"></p>
+
+</div> 
+
+<!-- Js Prog. 20 -->
+<div class="js">
+
+    <h3> 20. Write a js program to count frequency of each character in a string. </h3>
+
+       <label for="text20">Enter the Data</label>
+       <br/>
+      <textarea name="" id="text20" cols="30" rows="5" ></textarea>
+      <br/>
+      
+    <button onclick="example20()" class="btn btn-primary text-white mt-3 mb-3">Frequency of Character</button>
+    <h2 id="resulthead20"></h2>
+    <table id="result20">
+       
+    </table>
+
+</div> 
+
+<!-- Js Prog. 21 -->
+<div class="js">
+
+    <h3> 21. Write a js program to remove first occurrence of a character from string. </h3>
+
+       <label for="text21">Enter the Data</label>
+       <br/>
+      <textarea name="" id="text21" cols="30" rows="5" ></textarea>
+      <br/>
+      <label for="text21a">Enter a Character to Remove</label>
+      <br/>
+     <input type="text" name="text21a" id="text21a"  class="input-group w-50"  maxlength="1">
+     <br/>
+    <button onclick="example21()" class="btn btn-primary text-white mt-3 mb-3">Remove First Occurrence</button>
+    <h2 id="resulthead21"></h2>
+    <table id="result21">
+       
+    </table>
+
+</div> 
+
+<!-- Js Prog. 22 -->
+<div class="js">
+
+    <h3> 22. Write a js program to remove last occurrence of a character from string. </h3>
+
+       <label for="text22">Enter the Data</label>
+       <br/>
+      <textarea name="" id="text22" cols="30" rows="5" ></textarea>
+      <br/>
+      <label for="text22a">Enter a Character to Remove</label>
+      <br/>
+     <input type="text" name="text22a" id="text22a"  class="input-group w-50"  maxlength="1">
+     <br/>
+    <button onclick="example22()" class="btn btn-primary text-white mt-3 mb-3">Remove Last Occurrence</button>
+    <h2 id="resulthead22"></h2>
+    <table id="result22">
+       
+    </table>
+
+</div> 
+
+<!-- Js Prog. 23 -->
+<div class="js">
+
+    <h3> 23. Write a js program to remove all occurrences of a character from string. </h3>
+
+       <label for="text23">Enter the Data</label>
+       <br/>
+      <textarea name="" id="text23" cols="30" rows="5" ></textarea>
+      <br/>
+      <label for="text23a">Enter a Character to Remove</label>
+      <br/>
+     <input type="text" name="text23a" id="text23a"  class="input-group w-50"  maxlength="1">
+     <br/>
+    <button onclick="example23()" class="btn btn-primary text-white mt-3 mb-3">Remove All Occurrence</button>
+    <h2 id="resulthead23"></h2>
+    <table id="result23">
+       
+    </table>
+
+</div> 
+
+<!-- Js Prog. 24 -->
+<div class="js">
+
+    <h3> 24. Write a js program to remove all repeated characters from a given string. </h3>
+
+       <label for="text24">Enter the Data</label>
+       <br/>
+      <textarea name="" id="text24" cols="30" rows="5" ></textarea>
+      <br/>
+      <label for="text24a">Enter a Characters to Remove</label>
+      <br/>
+     <input type="text" name="text24a" id="text24a"  class="input-group w-50" >
+     <br/>
+    <button onclick="example24()" class="btn btn-primary text-white mt-3 mb-3">Remove All Occurrence</button>
+    <h2 id="resulthead24"></h2>
+    <table id="result24">
+       
+    </table>
+
+</div> 
+
+<!-- Js Prog. 25 -->
+<div class="js">
+
+    <h3> 25. Write a js program to replace first occurrence of a character with another in a string.</h3>
+
+       <label for="text25">Enter the Data</label>
+       <br/>
+      <textarea name="" id="text25" cols="30" rows="5" ></textarea>
+      <br/>
+      <label for="text25a">Enter a Characters Which want to Replace</label>
+      <br/>
+     <input type="text" name="text25a" id="text25a"  class="input-group w-50" >
+     <br/>
+     <label for="text25b">Enter a Characters to be Replace</label>
+     <br/>
+     <input type="text" name="text25b" id="text25b"  class="input-group w-50" >
+     <br/>
+    <button onclick="example25()" class="btn btn-primary text-white mt-3 mb-3">Replace First Occurence</button>
+    <h2 id="resulthead25"></h2>
+    <table id="result25">
+       
+    </table>
+
+</div> 
+
+<!-- Js Prog. 26 -->
+<div class="js">
+
+    <h3>26. Write a js program to replace last occurrence of a character with another in a string. </h3>
+
+       <label for="text26">Enter the Data</label>
+       <br/>
+      <textarea name="" id="text26" cols="30" rows="5" ></textarea>
+      <br/>
+      <label for="text26a">Enter a Characters Which want to Replace</label>
+      <br/>
+     <input type="text" name="text26a" id="text26a"  class="input-group w-50" >
+     <br/>
+     <label for="text26b">Enter a Characters to be Replace</label>
+     <br/>
+     <input type="text" name="text26b" id="text26b"  class="input-group w-50" >
+     <br/>
+    <button onclick="example26()" class="btn btn-primary text-white mt-3 mb-3">Replace Last Occurence</button>
+    <h2 id="resulthead26"></h2>
+    <table id="result26">
+       
+    </table>
+
+</div> 
+
+<!-- Js Prog. 27 -->
+<div class="js">
+
+    <h3>27. Write a js program to replace all occurrences of a character with another in a string. </h3>
+
+       <label for="text27">Enter the Data</label>
+       <br/>
+      <textarea name="" id="text27" cols="30" rows="5" ></textarea>
+      <br/>
+      <label for="text27a">Enter a Characters Which want to Replace</label>
+      <br/>
+     <input type="text" name="text27a" id="text27a"  class="input-group w-50" >
+     <br/>
+     <label for="text27b">Enter a Characters to be Replace</label>
+     <br/>
+     <input type="text" name="text27b" id="text27b"  class="input-group w-50" >
+     <br/>
+    <button onclick="example27()" class="btn btn-primary text-white mt-3 mb-3">Replace All Occurence</button>
+    <h2 id="resulthead27"></h2>
+    <table id="result27">
+       
+    </table>
+
+</div> 
+
+<!-- Js Prog. Object 1 -->
+<div class="js">
+
+    <h3>1. Write a JavaScript program to list the properties of a JavaScript object </h3>
+
+       
+    <button  class="btn btn-primary text-white mt-3 mb-3"  onclick="obj1();">List Properties</button>
+    <h2 id="resultheadobj1"></h2>
+    <table id="resultobj1">
+       
+    </table>
+
+</div> 
+
+<!-- Js Prog. Object 2 -->
+<div class="js">
+
+    <h3>2. Write a JavaScript program to delete the rollno property from the following object. Also print the object before or after deleting the property. </h3>
+
+       
+    <button  class="btn btn-primary text-white mt-3 mb-3"  onclick="obj2();">List Properties</button>
+    <h2 id="resultheadobj2"></h2>
+    <table id="resultobj2">
+       
+    </table>
+
+</div> 
+
+<!-- Js Prog. Object 3 -->
+<div class="js">
+
+    <h3>3. Write a JavaScript program to get the length of a JavaScript object. </h3>
+
+       
+    <button  class="btn btn-primary text-white mt-3 mb-3"  onclick="obj3();">List Properties</button>
+    <h2 id="resultheadobj3"></h2>
+    <table id="resultobj3">
+       
+    </table>
+
+</div> 
+<!-- Js Prog. Object 4 -->
+<div class="js">
+
+    <h3>4. Write a JavaScript program to display the reading status (i.e. display book name, author name and reading status) of the following books.</h3>
+
+       
+    <button  class="btn btn-primary text-white mt-3 mb-3"  onclick="obj4();">Book Reading Status</button>
+    <h2 id="resultheadobj4"></h2>
+    <table id="resultobj4">
+       
+    </table>
+
+</div> 
+
+
+<!-- Js Prog. Object 5 -->
+<div class="js">
+
+    <h3>5. Write a JavaScript program to get the volume of a Cylinder with four decimal places using object classes.</h3>
+    <label for="rad">Diameter</label>
+    <input type="number" name="diameter" id="rad" class="input-group w-50">       
+    <br/>
+    <label for="heg">Height</label>
+    <input type="number" name="height" id="heg" class="input-group w-50">       
+    <br/>
+    <button  class="btn btn-primary text-white mt-3 mb-3"  onclick="obj5();">Get Volume</button>
+    <h2 id="resultheadobj5"></h2>
+    <table id="resultobj5">
+       
+    </table>
+
+</div> 
+
+<!-- Js Prog. Conditional operator 1 -->
+<div class="js">
+
+    <h3>1. Write a js program to find maximum between two numbers using conditional operator.</h3>
+    <label for="n1">Number 1</label>
+    <input type="number" name="n1" id="n1" class="input-group w-50">       
+    <br/>
+    <label for="n2">Number 2</label>
+    <input type="number" name="n2" id="n2" class="input-group w-50">       
+    <br/>
+    <button  class="btn btn-primary text-white mt-3 mb-3"  onclick="con1();">Maximum between two Numbers</button>
+    <h2 id="resultheadc1"></h2>
+    <table id="resultc1">
+       
+    </table>
+
+</div> 
+
+<!-- Js Prog. Conditional operator 2 -->
+<div class="js">
+
+    <h3>2. Write a js program to find maximum between three numbers using conditional operator.</h3>
+    <label for="nn1">Number 1</label>
+    <input type="number" name="nn1" id="nn1" class="input-group w-50">       
+    <br/>
+    <label for="nn2">Number 2</label>
+    <input type="number" name="nn2" id="nn2" class="input-group w-50">       
+    <br/>
+    <label for="nn3">Number 3</label>
+    <input type="number" name="nn3" id="nn3" class="input-group w-50">       
+    <br/>
+    <button  class="btn btn-primary text-white mt-3 mb-3"  onclick="con2();">Get Maximum Between 3 Numbers</button>
+    <h2 id="resultheadc2"></h2>
+    <table id="resultc2">
+       
+    </table>
+
+</div> 
+
+<!-- Js Prog. Conditional operator 3 -->
+<div class="js">
+
+    <h3>3. Write a js program to check whether a number is even or odd using conditional operator.</h3>
+    <label for="input">Number</label>
+    <input type="number" name="input" id="input" class="input-group w-50">       
+    
+    <button  class="btn btn-primary text-white mt-3 mb-3"  onclick="con3();">Number Even/Odd</button>
+    <h2 id="resultheadc3"></h2>
+    <table id="resultc3">
+       
+    </table>
+
+</div> 
+
+<!-- Js Prog. Conditional operator 4 -->
+<div class="js">
+
+    <h3>4. Write a js program to check whether year is leap year or not using conditional operator.</h3>
+    <label for="inputCon4">Number</label>
+    <input type="number" name="inputCon4" id="inputCon4" class="input-group w-50">       
+    
+    <button  class="btn btn-primary text-white mt-3 mb-3"  onclick="con4();">Leap Year</button>
+    <h2 id="resultheadc4"></h2>
+    <table id="resultc4">
+       
+    </table>
+
+</div> 
+
+    <!-- Js Prog. Conditional operator 5 -->
+<div class="js">
+
+    <h3>5. Write a js program to check whether character is an alphabet or not using conditional operator.</h3>
+    <label for="inputCon5">Input</label>
+    <input type="text" name="inputCon5" id="inputCon5" class="input-group w-50" minlength="1">       
+    
+    <button  class="btn btn-primary text-white mt-3 mb-3"  onclick="con5();">Alphabet / Not</button>
+    <h2 id="resultheadc5"></h2>
+    <table id="resultc5">
+       
+    </table>
+
+</div> 
+
+    <!-- Js Prog. Switch Statement 1 -->
+    <div class="js">
+
+        <h3>1. Write a js program to print day of week name using switch case.</h3>
+        <label for="inputS1">Input</label>
+        <input type="date" name="inputS1" id="inputS1" class="input-group w-50" minlength="1">       
+        
+        <button  class="btn btn-primary text-white mt-3 mb-3"  onclick="s1();">Print Week Day</button>
+        <h2 id="resultheads1"></h2>
+        <table id="results1">
+           
+        </table>
+    
+    </div> 
+
+
+   <!-- Js Prog. Switch Statement 2 -->
+   <div class="js">
+
+    <h3>2. Write a js program print total number of days in a month using switch case.</h3>
+    <label for="inputS2">Input</label>
+    <input type="date" name="inputS1" id="inputS2" class="input-group w-50" >       
+    
+    <button  class="btn btn-primary text-white mt-3 mb-3"  onclick="s2();">Print Total Days</button>
+    <h2 id="resultheads2"></h2>
+    <table id="results2">
+       
+    </table>
+
+</div> 
+
+<!-- Js Prog. Switch Statement 3 -->
+<div class="js">
+
+    <h3>3. Write a js program to check whether an alphabet is vowel or consonant using switch case.</h3>
+    <label for="inputS3">Input</label>
+    <input type="text" name="inputS1" id="inputS3" class="input-group w-50" minlength="1">       
+    
+    <button  class="btn btn-primary text-white mt-3 mb-3"  onclick="s3();">Print Total Days</button>
+    <h2 id="resultheads3"></h2>
+    <table id="results3">
+       
+    </table>
+
+</div> 
+<!-- Js Prog. Switch Statement 4 -->
+
+<div class="js">
+
+    <h3>4. Write a js program to find maximum between two numbers using switch case.</h3>
+    <label for="inputS4">Number1</label>
+    <input type="number" name="inputS4" id="inputS4" class="input-group w-50" >       
+    <br/>
+    <label for="inputS4a">Number2</label>
+    <input type="number" name="inputS4a" id="inputS4a" class="input-group w-50" >       
+
+    <button  class="btn btn-primary text-white mt-3 mb-3"  onclick="s4();">Get Maximum Number</button>
+    <h2 id="resultheads4"></h2>
+    <table id="results4">
+       
+    </table>
+
+</div>
+<!-- Js Prog. Switch Statement 5 -->
+<div class="js">
+
+    <h3>5. Write a js program to check whether a number is even or odd using switch case.</h3>
+    <label for="inputS5">Number</label>
+    <input type="number" name="inputS5" id="inputS5" class="input-group w-50" >       
+     
+    <button  class="btn btn-primary text-white mt-3 mb-3"  onclick="s5();">Check Number</button>
+    <h2 id="resultheads5"></h2>
+    <table id="results5">
+       
+    </table>
+
+</div>
+
+<!-- Js Prog. Switch Statement 6 -->
+<div class="js">
+
+    <h3>6. Write a js program to check whether a number is positive, negative or zero using switch case.</h3>
+    <label for="inputS6">Number</label>
+    <input type="number" name="inputS6" id="inputS6" class="input-group w-50" >       
+     
+    <button  class="btn btn-primary text-white mt-3 mb-3"  onclick="s6();">Check Number</button>
+    <h2 id="resultheads6"></h2>
+    <table id="results6">
+       
+    </table>
+
+</div>
+
+
+<!-- Js Prog. Switch Statement 8 -->
+<div class="js">
+
+    <h3>8. Write a js program to create Simple Calculator using switch case.</h3>
+    <label for="inputS8">Number1</label>
+    <input type="number" name="inputS8" id="inputS8" class="input-group w-50" >   
+    
+    <label for="inputS8a">Number2</label>
+    <input type="number" name="inputS8a" id="inputS8a" class="input-group w-50" >
+    <select class="form-select mt-3 w-50" aria-label="Default select example" id=inputS8b>
+        <option selected>Select option</option>
+        <option value="+">+</option>
+        <option value="-">-</option>
+        <option value="*">*</option>
+        <option value="/">/</option>
+      </select>
+
+    <button  class="btn btn-primary text-white mt-3 mb-3"  onclick="s8();">Check Result</button>
+    <h2 id="resultheads8"></h2>
+    <table id="results8">
+       
+    </table>
+
+</div>
+
+    <script src="./js/my.js"></script>
+</body>
+
+</html>
